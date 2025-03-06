@@ -1,3 +1,11 @@
+:root {
+  --primary-color: #FDF1DD;
+  --secondary-color: #DDD7C5;
+  --contrast-color: #438088;
+  --background-color: #373B41;
+
+  --header-background-color: #1a1d20;
+}
 * {
   font-family: 'Roboto', serif;
   font-weight: 300;
