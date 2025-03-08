@@ -24,3 +24,6 @@ body {
 .aside > div {
   color: var(--primary-color);
 }
+.logo {
+  height: 36px;
+}
