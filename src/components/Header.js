@@ -1,4 +1,5 @@
 import React from "react";
+import logo from '../img/logo.svg'
 
 class Header extends React.Component {
   constructor(props) {
@@ -9,8 +10,10 @@ class Header extends React.Component {
   render() {
     return (
       <div className="header">
-        <div className="header logo"></div>
-        <div className="header about"></div>
+        <div className="header logo">
+          <img src={logo} alt="logo"></img>
+        </div>
+        <div className="header about">placeholder</div>
         <div className="header singIn"></div>
         <div className="header registration"></div>
       </div>
