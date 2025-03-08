@@ -26,4 +26,5 @@ body {
 }
 .logo {
   height: 36px;
+  fill: var(--contrast-color);
 }
