@@ -5,7 +5,7 @@
   --background-color: #373B41;
   --header-background-color: #1a1d20;
 }
-* {
+body {
   font-family: 'Roboto', serif;
   font-weight: 300;
   margin: 0 0;
@@ -16,15 +16,11 @@
 .header {
   background-color: var(--header-background-color);
   color: var(--secondary-color);
+  display: flex;
   font-weight: 600;
   font-size: 24px;
   padding: 25px 100px;
 }
-.aside {
-  display: flex;
-  flex-direction: column;
-  background-color: var(--contrast-color);
-}
 .aside > div {
-
+  color: var(--primary-color);
 }

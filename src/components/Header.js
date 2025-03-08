@@ -8,10 +8,13 @@ class Header extends React.Component {
 
   render() {
     return (
-      <div>
-        <div className="header">abc</div>
+      <div className="header">
+        <div className="header logo"></div>
+        <div className="header about"></div>
+        <div className="header singIn"></div>
+        <div className="header registration"></div>
       </div>
-    ); 
+    );
   }
 }
 
