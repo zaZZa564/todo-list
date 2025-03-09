@@ -10,12 +10,13 @@ class Header extends React.Component {
   render() {
     return (
       <div className="header">
-        <div className="header logo">
+        <div className="headerEl logo">
           <img src={logo} alt="logo"></img>
+          <div>placeholder</div>
         </div>
-        <div className="header about">placeholder</div>
-        <div className="header singIn"></div>
-        <div className="header registration"></div>
+        <div className="headerEl about">about</div>
+        <div className="headerEl singIn">sing in</div>
+        <div className="headerEl registration">start for free</div>
       </div>
     );
   }

@@ -21,10 +21,18 @@ body {
   font-size: 24px;
   padding: 25px 100px;
 }
-.aside > div {
-  color: var(--primary-color);
+.headerEl {
+  width: auto;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  cursor: pointer;
+}
+img {
+  height: 36px;
+  width: auto;
 }
 .logo {
   height: 36px;
-  fill: var(--contrast-color);
+  display: flex;
 }
