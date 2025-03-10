@@ -26,9 +26,11 @@ body {
   display: flex;
   flex: 1;
   justify-content: center;
+  align-items: center;
   cursor: pointer;
 }
 img {
+  margin: 10px;
   height: 36px;
   width: auto;
 }

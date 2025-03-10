@@ -1,5 +1,5 @@
 import React from "react";
-import logo from "../img/logo.png"
+import logo from "../img/logo.svg"
 
 class Header extends React.Component {
   constructor(props) {
@@ -12,7 +12,7 @@ class Header extends React.Component {
       <div className="header">
         <div className="headerEl logo">
           <img src={logo} alt="logo"></img>
-          <div>placeholder</div>
+          <div>todoist</div>
         </div>
         <div className="headerEl about">about</div>
         <div className="headerEl singIn">sing in</div>
