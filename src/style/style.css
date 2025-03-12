@@ -21,6 +21,13 @@ body {
   font-size: 24px;
   padding: 25px 100px;
 }
+.header-left {
+  flex: 1;
+}
+.header-right {
+  display: flex;
+  flex: 1;
+}
 .headerEl {
   width: auto;
   display: flex;
@@ -35,6 +42,8 @@ img {
   width: auto;
 }
 .logo {
+  justify-content: left;
+  margin-left: 40px;
   height: 36px;
   display: flex;
 }
