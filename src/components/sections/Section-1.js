@@ -5,8 +5,8 @@ class Section1 extends React.Component {
     return (
       <div className="section sec1">
         <div className="sec1-text">
-          <h4>Header of the section 1 text</h4>
-          <p>Some useless content below. This is just placeholder btw. Later I'll definately change it but now I'm too lazy to do it so i just leave it here</p>
+          <h1>Header of the section 1 text</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non sagittis nunc. Nullam faucibus enim vel magna eleifend dictum. Aenean malesuada fermentum nulla at finibus. Sed laoreet neque lorem. Sed et finibus nisl, at pharetra eros. Proin lorem urna, congue ut laoreet vitae, condimentum nec felis. Integer ac posuere libero. Etiam euismod semper iaculis. Curabitur volutpat ullamcorper leo nec fringilla.</p>
         </div>
         <div className="sec1-img"></div>
       </div>
