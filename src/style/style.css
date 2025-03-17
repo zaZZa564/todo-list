@@ -47,3 +47,10 @@ img {
   height: 36px;
   display: flex;
 }
+
+/* content sections */
+.sec1-img {
+  height: 350px;
+  width: 650px;
+  background-color: var(--header-background-color);
+}
